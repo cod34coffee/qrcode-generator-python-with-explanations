@@ -10,7 +10,7 @@ def generate_qr_code(data, filename, logo_path=None):
 
     qr = qrcode.QRCode(
         version=1,
-        #The error correction rate is low, which makes it to where appx. 7% of the
+        #The error correction rate is High, which makes it to where appx. A certain % of the
         #qr code can be recovered if the qr code is damaged.
         error_correction=qrcode.constants.ERROR_CORRECT_H,
 
